@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myAngularApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Angular Js Test</title>
+
+<script type="text/javascript" src="angular/angular.min.js"></script>
+<script type="text/javascript" src="MyAngularApp/Controller.js"> </script>
+</head>
+<body ng-controller="mainController">
+
+<input type="text" ng-model="text"> </input>
+<div> hai html : {{text}} </div>
+<h1> Angular js is working fine </h1>
+
+User Name : <input type="text" id="userName" ng-model="user.Name"></input> 
+Password : <input type="password"  id="userPassword" ng-model="user.Password"></input>
+<input type="button" id="login" value="Login" ng-click="validateUser()"></input>
+
+
+
+
+</body>
+</html>
